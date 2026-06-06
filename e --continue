@@ -1,0 +1,192 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex c7e7259..fcaee6d 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1 +1,184 @@[m
+[31m-# SDLC[m
+\ No newline at end of file[m
+[32m+[m[32m# 📊 SDLC — Waterfall Methodology[m
+[32m+[m
+[32m+[m[32m> **A linear, sequential approach to software development — each phase must fully complete before the next one begins. No going back!**[m
+[32m+[m
+[32m+[m[32m![SDLC Waterfall Methodology](./assets/sdlc-waterfall.svg)[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## 📌 What is Waterfall?[m
+[32m+[m
+[32m+[m[32mThe **Waterfall model** is one of the earliest and most straightforward Software Development Life Cycle (SDLC) methodologies. It follows a strict top-down approach where progress flows in one direction — like a waterfall — through clearly defined phases.[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## 🔄 Stages Flow: One Step at a Time[m
+[32m+[m
+[32m+[m[32m### 1. 🗂️ Planning[m
+[32m+[m[32m**What are we building?**[m
+[32m+[m[32m- Define project scope & goals[m
+[32m+[m[32m- Estimate time & budget[m
+[32m+[m[32m- Assign team roles & responsibilities[m
+[32m+[m[32m- Feasibility analysis[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m### 2. 📋 Requirements[m
+[32m+[m[32m**What features are needed?**[m
+[32m+[m[32m- Gather all user & business needs[m
+[32m+[m[32m- Produce a **Software Requirements Specification (SRS)** document[m
+[32m+[m[32m- Identify Functional & Non-functional requirements[m
+[32m+[m[32m- Get formal sign-off from the client[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m### 3. 🏗️ System Design[m
+[32m+[m[32m**How will we build it?**[m
+[32m+[m[32m- High-Level Design (HLD) & Low-Level Design (LLD)[m
+[32m+[m[32m- Database schema & API design[m
+[32m+[m[32m- UI/UX wireframes[m
+[32m+[m[32m- Tech stack decisions[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m### 4. 💻 Implementation (Coding)[m
+[32m+[m[32m**Actually writing the code!**[m
+[32m+[m[32m- Developers write code strictly following design documents[m
+[32m+[m[32m- Unit testing done by developers[m
+[32m+[m[32m- Code reviews & commits[m
+[32m+[m[32m- No scope changes allowed at this stage[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m### 5. 🧪 Testing & QA[m
+[32m+[m[32m**Does it work correctly?**[m
+[32m+[m[32m- QA team tests all features[m
+[32m+[m[32m- Types: Unit → Integration → System → UAT[m
+[32m+[m[32m- Bug fix cycles[m
+[32m+[m[32m- User Acceptance Testing (UAT) with real users[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m### 6. 🚀 Deployment[m
+[32m+[m[32m**Go Live to Production!**[m
+[32m+[m[32m- Release to production server[m
+[32m+[m[32m- User training & documentation[m
+[32m+[m[32m- Rollback plan kept ready[m
+[32m+[m[32m- Handover to operations team[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m### 7. 🔧 Maintenance[m
+[32m+[m[32m**Keep it running smoothly!**[m
+[32m+[m[32m- Bug fixes post-release[m
+[32m+[m[32m- Performance tuning[m
+[32m+[m[32m- Security patches & updates[m
+[32m+[m[32m- Feature enhancement requests[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## 🏠 Real World Analogy: Building a House[m
+[32m+[m
+[32m+[m[32m```[m
+[32m+[m[32mLay blueprint  →  Get permits (requirements)  →  Architect draws design[m
+[32m+[m[32m      →  Builders construct  →  Inspector checks  →  Family moves in  →  Annual maintenance[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mJust like constructing a house — you can't pour the foundation before the blueprint is approved, and you can't move in before the inspector signs off.[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## ✅ Pros of Waterfall[m
+[32m+[m
+[32m+[m[32m| Advantage | Details |[m
+[32m+[m[32m|-----------|---------|[m
+[32m+[m[32m| 📐 Clear Structure | Easy to understand and follow for all team members |[m
+[32m+[m[32m| 📄 Well Documented | Every stage produces thorough documentation |[m
+[32m+[m[32m| 🎯 Fixed Scope | Works great when all requirements are known upfront |[m
+[32m+[m[32m| 📅 Easy Milestones | Simple to track progress and deadlines |[m
+[32m+[m[32m| 👥 Client Clarity | Client knows exactly what to expect and when |[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## ❌ Cons of Waterfall[m
+[32m+[m
+[32m+[m[32m| Disadvantage | Details |[m
+[32m+[m[32m|--------------|---------|[m
+[32m+[m[32m| 🔒 Inflexible | Difficult to accommodate changing requirements |[m
+[32m+[m[32m| 🐛 Late Testing | Bugs are discovered only near the end |[m
+[32m+[m[32m| 👁️ No Early Demo | Client sees working software only at the finish line |[m
+[32m+[m[32m| ⚠️ High Risk | Misunderstood requirements cause costly rework |[m
+[32m+[m[32m| 🔄 No Iteration | No feedback loops between phases |[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## 🏆 Best Use Cases[m
+[32m+[m
+[32m+[m[32mWaterfall works best when you can answer **YES** to all 3 questions:[m
+[32m+[m[32m1. Are requirements **fully known** upfront?[m
+[32m+[m[32m2. Will the scope **NOT change** mid-project?[m
+[32m+[m[32m3. Is **heavy documentation** required?[m
+[32m+[m
+[32m+[m[32m### Industries where Waterfall shines:[m
+[32m+[m
+[32m+[m[32m| Industry | Examples |[m
+[32m+[m[32m|----------|---------|[m
+[32m+[m[32m| 🏛️ Government Systems | Tax portals, public records, defence software |[m
+[32m+[m[32m| 🏦 Banking & Finance | Core banking, loan processing, payment gateways |[m
+[32m+[m[32m| 🏥 Healthcare & Medical | Hospital mgmt, patient records, medical devices |[m
+[32m+[m[32m| 🏗️ Construction & Engineering | CAD/CAM tools, infrastructure management |[m
+[32m+[m[32m| ✈️ Aerospace & Defence | Flight controls, satellite software, navigation |[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## ⚖️ Waterfall vs Agile — Quick Comparison[m
+[32m+[m
+[32m+[m[32m| Factor | Waterfall | Agile |[m
+[32m+[m[32m|--------|-----------|-------|[m
+[32m+[m[32m| Approach | Linear & Sequential | Iterative & Incremental |[m
+[32m+[m[32m| Flexibility | Low — fixed scope | High — welcomes change |[m
+[32m+[m[32m| Client Involvement | Beginning & end only | Continuous collaboration |[m
+[32m+[m[32m| Delivery | Single final delivery | Frequent small releases |[m
+[32m+[m[32m| Documentation | Heavy & detailed | Light & just-in-time |[m
+[32m+[m[32m| Best For | Stable, well-defined projects | Dynamic, evolving projects |[m
+[32m+[m[32m| Risk | Higher (late feedback) | Lower (early feedback) |[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## 📁 Project Structure (if using this as a template)[m
+[32m+[m
+[32m+[m[32m```[m
+[32m+[m[32mproject-root/[m
+[32m+[m[32m├── README.md[m
+[32m+[m[32m├── assets/[m
+[32m+[m[32m│   ├── sdlc-waterfall.svg       ← Export from Excalidraw (SVG recommended)[m
+[32m+[m[32m│   └── sdlc-waterfall.png       ← PNG fallback[m
+[32m+[m[32m├── docs/[m
+[32m+[m[32m│   ├── requirements.md[m
+[32m+[m[32m│   ├── design.md[m
+[32m+[m[32m│   └── test-plan.md[m
+[32m+[m[32m└── src/[m
+[32m+[m[32m    └── ...[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## 🖼️ How to Update the Diagram[m
+[32m+[m
+[32m+[m[32m1. Open the Excalidraw canvas[m
+[32m+[m[32m2. Click **Menu → Export image**[m
+[32m+[m[32m3. Export as **SVG** (preferred) or **PNG**[m
+[32m+[m[32m4. Replace the file in `/assets/` folder[m
+[32m+[m[32m5. Commit and push to GitHub[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m## 📚 Further Reading[m
+[32m+[m
+[32m+[m[32m- [IEEE Software Development Standards](https://www.ieee.org/)[m
+[32m+[m[32m- [SWEBOK — Software Engineering Body of Knowledge](https://www.computer.org/education/bodies-of-knowledge/software-engineering)[m
+[32m+[m[32m- [Agile Manifesto](https://agilemanifesto.org/) ← For when Waterfall isn't the right fit[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+[32m+[m[32m*Diagram created with [Excalidraw](https://excalidraw.com/) — open source, hand-drawn style diagrams.*[m
+* Unmerged path Readme.md
