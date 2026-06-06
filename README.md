@@ -1,7 +1,3 @@
 # SDLC 
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/images/waterfall-sdlc.png" 
-       alt="SDLC Waterfall Methodology" 
-       width="800"/>
-</p>
+<img src="https://raw.githubusercontent.com/PradeepReddy927/PradeepReddy927/main/images/waterfall-sdlc.png" alt="SDLC Waterfall Methodology" width="800"/>
